@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC5B7EF62629168800AD7089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B7EF52629168800AD7089 /* AppDelegate.swift */; };
+		CC5B7EF82629168800AD7089 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B7EF72629168800AD7089 /* SceneDelegate.swift */; };
+		CC5B7EFA2629168800AD7089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B7EF92629168800AD7089 /* ViewController.swift */; };
+		CC5B7EFD2629168800AD7089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5B7EFB2629168800AD7089 /* Main.storyboard */; };
+		CC5B7F002629168800AD7089 /* Musipfy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC5B7EFE2629168800AD7089 /* Musipfy.xcdatamodeld */; };
+		CC5B7F022629168B00AD7089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC5B7F012629168B00AD7089 /* Assets.xcassets */; };
+		CC5B7F052629168B00AD7089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5B7F032629168B00AD7089 /* LaunchScreen.storyboard */; };
+		CC5B7F102629168B00AD7089 /* MusipfyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B7F0F2629168B00AD7089 /* MusipfyTests.swift */; };
+		CC5B7F1B2629168B00AD7089 /* MusipfyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B7F1A2629168B00AD7089 /* MusipfyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC5B7F0C2629168B00AD7089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5B7EEA2629168800AD7089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5B7EF12629168800AD7089;
+			remoteInfo = Musipfy;
+		};
+		CC5B7F172629168B00AD7089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5B7EEA2629168800AD7089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5B7EF12629168800AD7089;
+			remoteInfo = Musipfy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC5B7EF22629168800AD7089 /* Musipfy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musipfy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5B7EF52629168800AD7089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC5B7EF72629168800AD7089 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC5B7EF92629168800AD7089 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC5B7EFC2629168800AD7089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC5B7EFF2629168800AD7089 /* Musipfy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Musipfy.xcdatamodel; sourceTree = "<group>"; };
+		CC5B7F012629168B00AD7089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC5B7F042629168B00AD7089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC5B7F062629168B00AD7089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5B7F0B2629168B00AD7089 /* MusipfyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusipfyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5B7F0F2629168B00AD7089 /* MusipfyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusipfyTests.swift; sourceTree = "<group>"; };
+		CC5B7F112629168B00AD7089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5B7F162629168B00AD7089 /* MusipfyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusipfyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5B7F1A2629168B00AD7089 /* MusipfyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusipfyUITests.swift; sourceTree = "<group>"; };
+		CC5B7F1C2629168B00AD7089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC5B7EEF2629168800AD7089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5B7F082629168B00AD7089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5B7F132629168B00AD7089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC5B7EE92629168800AD7089 = {
+			isa = PBXGroup;
+			children = (
+				CC5B7EF42629168800AD7089 /* Musipfy */,
+				CC5B7F0E2629168B00AD7089 /* MusipfyTests */,
+				CC5B7F192629168B00AD7089 /* MusipfyUITests */,
+				CC5B7EF32629168800AD7089 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC5B7EF32629168800AD7089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC5B7EF22629168800AD7089 /* Musipfy.app */,
+				CC5B7F0B2629168B00AD7089 /* MusipfyTests.xctest */,
+				CC5B7F162629168B00AD7089 /* MusipfyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC5B7EF42629168800AD7089 /* Musipfy */ = {
+			isa = PBXGroup;
+			children = (
+				CC5B7EF52629168800AD7089 /* AppDelegate.swift */,
+				CC5B7EF72629168800AD7089 /* SceneDelegate.swift */,
+				CC5B7EF92629168800AD7089 /* ViewController.swift */,
+				CC5B7EFB2629168800AD7089 /* Main.storyboard */,
+				CC5B7F012629168B00AD7089 /* Assets.xcassets */,
+				CC5B7F032629168B00AD7089 /* LaunchScreen.storyboard */,
+				CC5B7F062629168B00AD7089 /* Info.plist */,
+				CC5B7EFE2629168800AD7089 /* Musipfy.xcdatamodeld */,
+			);
+			path = Musipfy;
+			sourceTree = "<group>";
+		};
+		CC5B7F0E2629168B00AD7089 /* MusipfyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC5B7F0F2629168B00AD7089 /* MusipfyTests.swift */,
+				CC5B7F112629168B00AD7089 /* Info.plist */,
+			);
+			path = MusipfyTests;
+			sourceTree = "<group>";
+		};
+		CC5B7F192629168B00AD7089 /* MusipfyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC5B7F1A2629168B00AD7089 /* MusipfyUITests.swift */,
+				CC5B7F1C2629168B00AD7089 /* Info.plist */,
+			);
+			path = MusipfyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC5B7EF12629168800AD7089 /* Musipfy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5B7F1F2629168B00AD7089 /* Build configuration list for PBXNativeTarget "Musipfy" */;
+			buildPhases = (
+				CC5B7EEE2629168800AD7089 /* Sources */,
+				CC5B7EEF2629168800AD7089 /* Frameworks */,
+				CC5B7EF02629168800AD7089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Musipfy;
+			productName = Musipfy;
+			productReference = CC5B7EF22629168800AD7089 /* Musipfy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC5B7F0A2629168B00AD7089 /* MusipfyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5B7F222629168B00AD7089 /* Build configuration list for PBXNativeTarget "MusipfyTests" */;
+			buildPhases = (
+				CC5B7F072629168B00AD7089 /* Sources */,
+				CC5B7F082629168B00AD7089 /* Frameworks */,
+				CC5B7F092629168B00AD7089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5B7F0D2629168B00AD7089 /* PBXTargetDependency */,
+			);
+			name = MusipfyTests;
+			productName = MusipfyTests;
+			productReference = CC5B7F0B2629168B00AD7089 /* MusipfyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC5B7F152629168B00AD7089 /* MusipfyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5B7F252629168B00AD7089 /* Build configuration list for PBXNativeTarget "MusipfyUITests" */;
+			buildPhases = (
+				CC5B7F122629168B00AD7089 /* Sources */,
+				CC5B7F132629168B00AD7089 /* Frameworks */,
+				CC5B7F142629168B00AD7089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5B7F182629168B00AD7089 /* PBXTargetDependency */,
+			);
+			name = MusipfyUITests;
+			productName = MusipfyUITests;
+			productReference = CC5B7F162629168B00AD7089 /* MusipfyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC5B7EEA2629168800AD7089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CC5B7EF12629168800AD7089 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CC5B7F0A2629168B00AD7089 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CC5B7EF12629168800AD7089;
+					};
+					CC5B7F152629168B00AD7089 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CC5B7EF12629168800AD7089;
+					};
+				};
+			};
+			buildConfigurationList = CC5B7EED2629168800AD7089 /* Build configuration list for PBXProject "Musipfy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC5B7EE92629168800AD7089;
+			productRefGroup = CC5B7EF32629168800AD7089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC5B7EF12629168800AD7089 /* Musipfy */,
+				CC5B7F0A2629168B00AD7089 /* MusipfyTests */,
+				CC5B7F152629168B00AD7089 /* MusipfyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC5B7EF02629168800AD7089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5B7F052629168B00AD7089 /* LaunchScreen.storyboard in Resources */,
+				CC5B7F022629168B00AD7089 /* Assets.xcassets in Resources */,
+				CC5B7EFD2629168800AD7089 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5B7F092629168B00AD7089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5B7F142629168B00AD7089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC5B7EEE2629168800AD7089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5B7EFA2629168800AD7089 /* ViewController.swift in Sources */,
+				CC5B7F002629168800AD7089 /* Musipfy.xcdatamodeld in Sources */,
+				CC5B7EF62629168800AD7089 /* AppDelegate.swift in Sources */,
+				CC5B7EF82629168800AD7089 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5B7F072629168B00AD7089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5B7F102629168B00AD7089 /* MusipfyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5B7F122629168B00AD7089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5B7F1B2629168B00AD7089 /* MusipfyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC5B7F0D2629168B00AD7089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC5B7EF12629168800AD7089 /* Musipfy */;
+			targetProxy = CC5B7F0C2629168B00AD7089 /* PBXContainerItemProxy */;
+		};
+		CC5B7F182629168B00AD7089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC5B7EF12629168800AD7089 /* Musipfy */;
+			targetProxy = CC5B7F172629168B00AD7089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC5B7EFB2629168800AD7089 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC5B7EFC2629168800AD7089 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC5B7F032629168B00AD7089 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC5B7F042629168B00AD7089 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC5B7F1D2629168B00AD7089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC5B7F1E2629168B00AD7089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC5B7F202629168B00AD7089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9PAX4AR89;
+				INFOPLIST_FILE = Musipfy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mortoFelipe.Musipfy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC5B7F212629168B00AD7089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9PAX4AR89;
+				INFOPLIST_FILE = Musipfy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mortoFelipe.Musipfy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC5B7F232629168B00AD7089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9PAX4AR89;
+				INFOPLIST_FILE = MusipfyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mortoFelipe.MusipfyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musipfy.app/Musipfy";
+			};
+			name = Debug;
+		};
+		CC5B7F242629168B00AD7089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9PAX4AR89;
+				INFOPLIST_FILE = MusipfyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mortoFelipe.MusipfyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musipfy.app/Musipfy";
+			};
+			name = Release;
+		};
+		CC5B7F262629168B00AD7089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9PAX4AR89;
+				INFOPLIST_FILE = MusipfyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mortoFelipe.MusipfyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Musipfy;
+			};
+			name = Debug;
+		};
+		CC5B7F272629168B00AD7089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9PAX4AR89;
+				INFOPLIST_FILE = MusipfyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mortoFelipe.MusipfyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Musipfy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC5B7EED2629168800AD7089 /* Build configuration list for PBXProject "Musipfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5B7F1D2629168B00AD7089 /* Debug */,
+				CC5B7F1E2629168B00AD7089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5B7F1F2629168B00AD7089 /* Build configuration list for PBXNativeTarget "Musipfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5B7F202629168B00AD7089 /* Debug */,
+				CC5B7F212629168B00AD7089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5B7F222629168B00AD7089 /* Build configuration list for PBXNativeTarget "MusipfyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5B7F232629168B00AD7089 /* Debug */,
+				CC5B7F242629168B00AD7089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5B7F252629168B00AD7089 /* Build configuration list for PBXNativeTarget "MusipfyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5B7F262629168B00AD7089 /* Debug */,
+				CC5B7F272629168B00AD7089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC5B7EFE2629168800AD7089 /* Musipfy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC5B7EFF2629168800AD7089 /* Musipfy.xcdatamodel */,
+			);
+			currentVersion = CC5B7EFF2629168800AD7089 /* Musipfy.xcdatamodel */;
+			path = Musipfy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC5B7EEA2629168800AD7089 /* Project object */;
+}
