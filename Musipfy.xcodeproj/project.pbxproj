@@ -16,6 +16,8 @@
 		CC5B7F052629168B00AD7089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5B7F032629168B00AD7089 /* LaunchScreen.storyboard */; };
 		CC5B7F102629168B00AD7089 /* MusipfyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B7F0F2629168B00AD7089 /* MusipfyTests.swift */; };
 		CC5B7F1B2629168B00AD7089 /* MusipfyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B7F1A2629168B00AD7089 /* MusipfyUITests.swift */; };
+		CC5B7F2C2629192100AD7089 /* DataMu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B7F2B2629192100AD7089 /* DataMu.swift */; };
+		CC5B7F3126291E8900AD7089 /* DataT.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B7F3026291E8900AD7089 /* DataT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		CC5B7F162629168B00AD7089 /* MusipfyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusipfyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5B7F1A2629168B00AD7089 /* MusipfyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusipfyUITests.swift; sourceTree = "<group>"; };
 		CC5B7F1C2629168B00AD7089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5B7F2B2629192100AD7089 /* DataMu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMu.swift; sourceTree = "<group>"; };
+		CC5B7F3026291E8900AD7089 /* DataT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataT.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				CC5B7F032629168B00AD7089 /* LaunchScreen.storyboard */,
 				CC5B7F062629168B00AD7089 /* Info.plist */,
 				CC5B7EFE2629168800AD7089 /* Musipfy.xcdatamodeld */,
+				CC5B7F2B2629192100AD7089 /* DataMu.swift */,
+				CC5B7F3026291E8900AD7089 /* DataT.swift */,
 			);
 			path = Musipfy;
 			sourceTree = "<group>";
@@ -263,7 +269,9 @@
 			files = (
 				CC5B7EFA2629168800AD7089 /* ViewController.swift in Sources */,
 				CC5B7F002629168800AD7089 /* Musipfy.xcdatamodeld in Sources */,
+				CC5B7F3126291E8900AD7089 /* DataT.swift in Sources */,
 				CC5B7EF62629168800AD7089 /* AppDelegate.swift in Sources */,
+				CC5B7F2C2629192100AD7089 /* DataMu.swift in Sources */,
 				CC5B7EF82629168800AD7089 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
