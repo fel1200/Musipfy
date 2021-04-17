@@ -62,10 +62,6 @@ class DataMu: NSObject {
             case "Todo":
                 Todos = try JSONDecoder().decode([Todo].self, from: jsonD)
                 print("Todos \(Todos.count)")
-            //not necessary user case for the app
-            /*case "User":
-                Users = try JSONDecoder().decode([User].self, from: jsonD)
-                print("Users \(Users.count)")*/
             default:
                 print("Incorrect type")
             }
