@@ -20,7 +20,13 @@ class ViewController: UIViewController, UITableViewDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         //reading data from json files
-        dataT.readAllData(tableViewToReload:tableView)
+        var loadingView:LoadingViewController = LoadingViewController()
+        self.addChild(loadingView)
+        loadingView.view.frame = view.frame
+            view.addSubview(loadingView.view)
+            loadingView.didMove(toParent: self)
+        
+        dataT.readAllData(tableViewToReload:tableView, spinner: loadingView)
 
 
         //setting tableViewDataSource

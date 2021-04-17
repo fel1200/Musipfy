@@ -24,7 +24,7 @@
             </objects>
             <point key="canvasLocation" x="-641" y="-335"/>
         </scene>
-        <!--View Controller-->
+        <!--Albums-->
         <scene sceneID="w5s-sY-n5Q">
             <objects>
                 <viewController id="Kam-Qz-e1l" customClass="ViewController" customModule="Musipfy" customModuleProvider="target" sceneMemberID="viewController">
@@ -41,7 +41,7 @@
                         <viewLayoutGuide key="safeArea" id="3vc-QT-ruA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="T6j-OG-tns"/>
+                    <navigationItem key="navigationItem" title="Albums" id="T6j-OG-tns"/>
                     <connections>
                         <outlet property="tableView" destination="aAX-t6-c0J" id="qeq-s4-u0X"/>
                         <segue destination="eLa-dt-Lpb" kind="show" identifier="showAlbumDetail" id="UcY-Iw-tCa"/>
@@ -51,7 +51,7 @@
             </objects>
             <point key="canvasLocation" x="23" y="-335"/>
         </scene>
-        <!--Album View Controller-->
+        <!--Photos-->
         <scene sceneID="co4-Gb-4jj">
             <objects>
                 <viewController id="eLa-dt-Lpb" customClass="AlbumViewController" customModule="Musipfy" customModuleProvider="target" sceneMemberID="viewController">
@@ -68,7 +68,7 @@
                         <viewLayoutGuide key="safeArea" id="pbl-f0-KGs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="xCw-lQ-7np"/>
+                    <navigationItem key="navigationItem" title="Photos" id="xCw-lQ-7np"/>
                     <connections>
                         <outlet property="tableAlbumViewController" destination="MJx-56-8bU" id="SPo-bz-HA9"/>
                         <segue destination="vMG-6m-A8T" kind="show" identifier="showPhotoDetail" id="gai-MN-5BX"/>

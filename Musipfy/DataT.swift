@@ -24,7 +24,7 @@ class DataT: NSObject {
         
     }
     
-    func readAllData(tableViewToReload:UITableView){
+    func readAllData(tableViewToReload:UITableView, spinner:LoadingViewController){
         self.dataMu.getDataFromJsonUrl(urlString: "https://jsonplaceholder.typicode.com/posts") {(result) in
            switch result {
            case .success(let data):
@@ -59,6 +59,9 @@ class DataT: NSObject {
             self.dataMu.parse(jsonD: data, type: "Photo")
             //reloading data in table when function finishes successfully
             tableViewToReload.reloadData()
+            spinner.willMove(toParent: nil)
+                    spinner.view.removeFromSuperview()
+                    spinner.removeFromParent()
            case .failure(let error):
                print(error)
            }
