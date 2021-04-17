@@ -25,7 +25,7 @@ class ViewController: UIViewController, UITableViewDelegate {
 
         //setting tableViewDataSource
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
-        tableView.dataSource = dataT
+        tableView.dataSource = self
         tableView.delegate = self
 
 
@@ -53,5 +53,26 @@ class ViewController: UIViewController, UITableViewDelegate {
 
 }
 
+//MARK: TableViewD DataSource Methods
+
+extension ViewController: UITableViewDataSource{
+        
+     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            print("Reloaded")
+        return self.dataT.dataMu.Albums.count
+        
+        }
+        
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+            print("row \(indexPath.row)")
+            let item:Album = self.dataT.dataMu.Albums[indexPath.row]
+            cell.textLabel?.text = item.title
+            return cell
+        }
+    
+ 
+    
+}
 
 

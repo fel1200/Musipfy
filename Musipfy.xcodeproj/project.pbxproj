@@ -19,6 +19,7 @@
 		CC5B7F2C2629192100AD7089 /* DataMu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B7F2B2629192100AD7089 /* DataMu.swift */; };
 		CC5B7F3126291E8900AD7089 /* DataT.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B7F3026291E8900AD7089 /* DataT.swift */; };
 		CCC07E8A262A6E8400207A40 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC07E89262A6E8400207A40 /* AlbumViewController.swift */; };
+		CCF138A2262A8DC1008EFA37 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF138A1262A8DC1008EFA37 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		CC5B7F2B2629192100AD7089 /* DataMu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMu.swift; sourceTree = "<group>"; };
 		CC5B7F3026291E8900AD7089 /* DataT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataT.swift; sourceTree = "<group>"; };
 		CCC07E89262A6E8400207A40 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		CCF138A1262A8DC1008EFA37 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				CC5B7EF72629168800AD7089 /* SceneDelegate.swift */,
 				CC5B7EF92629168800AD7089 /* ViewController.swift */,
 				CCC07E89262A6E8400207A40 /* AlbumViewController.swift */,
+				CCF138A1262A8DC1008EFA37 /* PhotoViewController.swift */,
 				CC5B7EFB2629168800AD7089 /* Main.storyboard */,
 				CC5B7F012629168B00AD7089 /* Assets.xcassets */,
 				CC5B7F032629168B00AD7089 /* LaunchScreen.storyboard */,
@@ -275,6 +278,7 @@
 				CC5B7F3126291E8900AD7089 /* DataT.swift in Sources */,
 				CC5B7EF62629168800AD7089 /* AppDelegate.swift in Sources */,
 				CC5B7F2C2629192100AD7089 /* DataMu.swift in Sources */,
+				CCF138A2262A8DC1008EFA37 /* PhotoViewController.swift in Sources */,
 				CC5B7EF82629168800AD7089 /* SceneDelegate.swift in Sources */,
 				CCC07E8A262A6E8400207A40 /* AlbumViewController.swift in Sources */,
 			);

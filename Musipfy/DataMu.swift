@@ -18,6 +18,7 @@ class DataMu: NSObject {
     var Todos : [Todo]
     //var Users : [User]
 
+    var photosFromAlbum :[Photo]
     override init() {
         //creating empty arrays to use it
         Posts = [Post]()
@@ -26,6 +27,8 @@ class DataMu: NSObject {
         Photos = [Photo]()
         Todos = [Todo]()
         //Users = [User]()
+        
+        photosFromAlbum = [Photo]()
     }
     
     func getDataFromJsonUrl(urlString:String, complete: @escaping (Result<Data,Error>)->Void){

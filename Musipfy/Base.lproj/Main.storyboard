@@ -71,11 +71,45 @@
                     <navigationItem key="navigationItem" id="xCw-lQ-7np"/>
                     <connections>
                         <outlet property="tableAlbumViewController" destination="MJx-56-8bU" id="SPo-bz-HA9"/>
+                        <segue destination="vMG-6m-A8T" kind="show" identifier="showPhotoDetail" id="gai-MN-5BX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BcE-Io-fHm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="741" y="-335"/>
+        </scene>
+        <!--Photo View Controller-->
+        <scene sceneID="vBh-Ee-pho">
+            <objects>
+                <viewController id="vMG-6m-A8T" customClass="PhotoViewController" customModule="Musipfy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MLB-uj-RKB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ork-RJ-19a">
+                                <rect key="frame" x="0.0" y="78" width="414" height="391"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYi-ES-hMF">
+                                <rect key="frame" x="35" y="504" width="329" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ch3-8V-Mun"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ljw-64-h12"/>
+                    <connections>
+                        <outlet property="imagePhoto" destination="ork-RJ-19a" id="3s3-WH-eXu"/>
+                        <outlet property="labelTitlePhoto" destination="oYi-ES-hMF" id="Wim-Gw-riM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d1d-P4-WjI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1457.9710144927537" y="-327.45535714285711"/>
         </scene>
     </scenes>
     <resources>
